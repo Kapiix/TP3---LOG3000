@@ -89,6 +89,7 @@ A AJOUTER PLUS TARD
 | `dev` | Branche d'intégration |
 | `feature/<nom>` | Développement d'une fonctionnalité |
 | `fix/<nom>` | Correction d'un bug |
+| `test/<nom>` | Ajout de test(s) |
 
 ### Flux de travail
 
