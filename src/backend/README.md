@@ -12,6 +12,9 @@ Ce module contient l'intégralité de la logique serveur de la calculatrice. Il 
 
 ## Fichiers
 
+### `__init__.py`
+Sert à identifier le dossier `src/backend/` en tant que module.
+
 ### `app.py`
 
 Point d'entrée de l'application Flask. Contient deux responsabilités principales :
