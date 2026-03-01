@@ -18,15 +18,20 @@ L'application reçoit une expression arithmétique via un formulaire HTML, la pa
 TP3---LOG3000/
 ├── src/
 │   ├── backend/         # Serveur Flask et logique de calcul
+│   │   ├── __init__.py
 │   │   ├── app.py
 │   │   ├── operators.py
 │   │   └── README.md
-│   └── frontend/        # Interface utilisateur
-│       ├── templates/
-│       │   └── index.html
-│       ├── static/
-│       │   └── style.css
-│       └── README.md
+│   ├── frontend/        # Interface utilisateur
+│   │   ├── templates/
+│   │   │   └── index.html
+│   │   ├── static/
+│   │   │   └── style.css
+│   │   └── README.md
+│   └── tests/           # Tests unitaires
+│       ├── __init__.py
+│       ├── README.md
+│       └── test_operators.py
 ├── .gitignore
 └── README.md
 ```
@@ -75,7 +80,15 @@ Ouvrir ensuite [http://127.0.0.1:5000](http://127.0.0.1:5000) dans un navigateur
 
 ## Tests
 
-A AJOUTER PLUS TARD
+**1. Se rendre au bon répertoire**
+```
+cd src
+```
+
+**2. Exécuter les tests**
+```
+python -m unittest
+```
 
 ---
 

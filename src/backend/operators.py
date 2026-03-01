@@ -30,7 +30,7 @@ def subtract(a: float, b: float) -> float:
     Returns:
         float: La différence a - b.
     """
-    return b - a
+    return a - b
 
 def multiply(a: float, b: float) -> float:
     """
@@ -43,7 +43,7 @@ def multiply(a: float, b: float) -> float:
     Returns:
         float: Le produit de a et b.
     """
-    return a ** b
+    return a * b
 
 def divide(a: float, b: float) -> float:
     """
@@ -56,4 +56,4 @@ def divide(a: float, b: float) -> float:
     Returns:
         float: Le quotient de a et b.
     """
-    return a // b
+    return a / b
